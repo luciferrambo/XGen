@@ -1,0 +1,22 @@
+.product-card {
+  display: flex;
+  height: 100%;
+  flex: 1;
+  flex-direction: column;
+  margin-right: 2px;
+  margin-left: 2px;
+  .img-container {
+    flex: 1;
+    height: 100%;
+  }
+  .info-container {
+    font-family: "arial";
+    color: #333;
+    .product-name {
+      font-size: 14px;
+    }
+    .product-price {
+      font-size: 10px;
+    }
+  }
+}

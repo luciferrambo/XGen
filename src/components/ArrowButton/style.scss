@@ -1,0 +1,19 @@
+.arrow-button {
+  display: flex;
+  height: 20px;
+  width: 25px;
+  background-repeat: no-repeat;
+  background-size: contain contain;
+  background-position: center center;
+  border: none;
+  background-color: white;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.left-arrow {
+  background-image: url("../../assets/images/arrow_left.svg");
+}
+.right-arrow {
+  background-image: url("../../assets/images/arrow_right.svg");
+}
